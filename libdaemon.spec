@@ -1,6 +1,6 @@
 Name: libdaemon
 Version: 0.14
-Release: 5%{?dist}
+Release: 7%{?dist}
 Summary: Library for writing UNIX daemons
 Group: System Environment/Libraries
 License: LGPLv2+
@@ -64,6 +64,12 @@ rm $RPM_BUILD_ROOT/%{_datadir}/doc/libdaemon/style.css
 %{_libdir}/pkgconfig/*.pc
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.14-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.14-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.14-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
